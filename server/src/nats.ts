@@ -84,7 +84,7 @@ class NatsClient {
 }
 
 export const nats = new NatsClient({
-    host: "nats",
+    host: "localhost",
     port: 4222,
     token: "nats-test"
 })

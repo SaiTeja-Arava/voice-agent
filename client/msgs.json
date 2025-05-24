@@ -1,0 +1,187 @@
+{
+    "messages": [
+        {
+            "role": "user",
+            "content": "hello"
+        }
+    ],
+    "tools": [
+        {
+            "type": "function",
+            "function": {
+                "name": "create_scene_variation",
+                "description": "Creates a scene by setting multiple device states to match a mood (e.g., 'party vibe'). Use this tool alone for scenes. pass valid field names",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "devices": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "description": "pass the id of the device here (device_id)"
+                                    },
+                                    "name": {
+                                        "type": "string",
+                                        "description": "pass the name of the device here (device_name)"
+                                    },
+                                    "onOffState": {
+                                        "type": "boolean",
+                                        "description": "send the on/off state of the device..., true for on, false for off"
+                                    },
+                                    "brightness": {
+                                        "type": "number",
+                                        "description": "pass the brightness of the device..."
+                                    }
+                                },
+                                "required": [
+                                    "id",
+                                    "name",
+                                    "onOffState"
+                                ],
+                                "additionalProperties": false,
+                                "description": "this state will be showed to user..."
+                            },
+                            "description": "pass the list of devices with suitable states..."
+                        },
+                        "room_name": {
+                            "type": "string",
+                            "description": "pass room name here"
+                        },
+                        "room_area": {
+                            "type": "string",
+                            "description": "pass the name of area of the room if available, include all the lights in the room if no area is specified"
+                        }
+                    },
+                    "required": [
+                        "devices",
+                        "room_name"
+                    ],
+                    "additionalProperties": false,
+                    "$schema": "http://json-schema.org/draft-07/schema#"
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "save_scene",
+                "description": "Saves a scene with the current device states",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "scene_name": {
+                            "type": "string",
+                            "description": "Name of the scene to save"
+                        },
+                        "devices": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "onOffState": {
+                                        "type": "boolean"
+                                    },
+                                    "brightness": {
+                                        "type": "number"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "onOffState"
+                                ],
+                                "additionalProperties": false
+                            }
+                        },
+                        "room_name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "scene_name",
+                        "devices",
+                        "room_name"
+                    ],
+                    "additionalProperties": false,
+                    "$schema": "http://json-schema.org/draft-07/schema#"
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "control_device",
+                "description": "use this tool to control a single device, or to change the state of a single device",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "device_id": {
+                            "type": "string",
+                            "description": "pass the id of the device here"
+                        },
+                        "device_name": {
+                            "type": "string",
+                            "description": "pass the name of the device here"
+                        },
+                        "onOffState": {
+                            "type": "boolean",
+                            "description": "send the on/off state of the device..., true for on, false for off"
+                        },
+                        "brightness": {
+                            "type": "number",
+                            "description": "pass the brightness of the device..."
+                        },
+                        "room_name": {
+                            "type": "string",
+                            "description": "name of the room"
+                        }
+                    },
+                    "required": [
+                        "device_id",
+                        "device_name",
+                        "onOffState",
+                        "room_name"
+                    ],
+                    "additionalProperties": false,
+                    "$schema": "http://json-schema.org/draft-07/schema#"
+                }
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "execute_scene",
+                "description": "use this tool to execute or apply a preconfigured scene in a room",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "scene_name": {
+                            "type": "string",
+                            "description": "pass the name of the scene here"
+                        },
+                        "room_name": {
+                            "type": "string",
+                            "description": "pass the name of the room here"
+                        },
+                        "scene_id": {
+                            "type": "string",
+                            "description": "pass id of the scene here"
+                        }
+                    },
+                    "required": [
+                        "scene_name",
+                        "room_name",
+                        "scene_id"
+                    ],
+                    "additionalProperties": false,
+                    "$schema": "http://json-schema.org/draft-07/schema#"
+                }
+            }
+        }
+    ]
+}

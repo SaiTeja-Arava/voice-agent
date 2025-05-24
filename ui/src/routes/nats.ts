@@ -38,9 +38,10 @@ class NatsClient {
 
     async start() {
         this.nc = await connect({
-            servers: [`nats://${this.connInfo.host}:${this.connInfo.port}`],
+            servers: [`ws://${this.connInfo.host}:${this.connInfo.port}`],
             token: this.connInfo.token
         })
+        console.log(this.nc.getServer())
     }
 
     async request(subject: string, jsonData: any): Promise<any> {
@@ -77,3 +78,8 @@ class NatsClient {
 
 export const nats = new NatsClient({ host: "localhost", port: 4224, token: "nats-test" })
 // export const nats = new NatsClient({ host: "kioti-nats-1.keus.in", port: 443, token: "keus-ops-nats" })
+// export const nats = new NatsClient({
+//     host: "dev-shield.nats.keus.in",
+//     port: 443,
+//     token: "keus-ops-nats",
+// })

@@ -1,0 +1,417 @@
+
+        {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Use this information: {\n    \"device_id\": 21,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"Colour Tunable\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"color_tunable\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        },\n        \"colorTemperature\": {\n            \"type\": \"this is a color temperature capability of light, supports color temperature from 2000 to 8000, in kelvin\",\n            \"current\": 2000,\n            \"min\": 2000,\n            \"max\": 8000\n        }\n    }\n}\n\n{\n    \"device_id\": \"7BZ9Cz0W\",\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"Profile\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_dimmer\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        }\n    }\n}\n\n{\n    \"device_id\": 27,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining dimmer\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 20,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"main dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 31,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 3\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 30,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 8\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 32,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 4\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 25,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining secondary dinner\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"switch\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is a switch, 0 means off, 255 means on\",\n            \"current\": 0,\n            \"allowedValues\": [\n                0,\n                255\n            ]\n        }\n    }\n}\n\n{\n    \"device_id\": 23,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining primary dimmer\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 33,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 5\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 31,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 7\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 22,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"secondary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 29,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 5\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 30,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 6\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": \"CxKv1NnP\",\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"cove light\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_rgbaddressable\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        },\n        \"pattern\": {\n            \"description\": \"this is to control the pattern of the addressable led strip\",\n            \"currentState\": {\n                \"patternName\": \"STATIC_ADDRESSABLE\",\n                \"patternProperties\": [\n                    {\n                        \"patternPropertyId\": \"PATTERN_SPEED\",\n                        \"patternPropertyValue\": 120\n                    },\n                    {\n                        \"patternPropertyId\": \"FLOW_TYPE\",\n                        \"patternPropertyValue\": 0\n                    },\n                    {\n                        \"patternPropertyId\": \"PATTERN_DIRECTION\",\n                        \"patternPropertyValue\": 0\n                    }\n                ],\n                \"colours\": [\n                    {\n                        \"redPercent\": 100,\n                        \"greenPercent\": 0,\n                        \"bluePercent\": 0\n                    }\n                ]\n            },\n            \"supportedPatterns\": [\n                \"Static Addressable\",\n                \"Rainbow Addressable\",\n                \"BREATHING ADDRESSABLE\",\n                \"STREAM\",\n                \"METEOR_RAIN\",\n                \"PULSE\",\n                \"VIBE\",\n                \"STROBE\",\n                \"TWINKLE\",\n                \"SPARKLE\",\n                \"FIRE\",\n                \"THEATRE_CHASE\",\n                \"COLOR_WIPE\",\n                \"PINBALL\",\n                \"COMET\",\n                \"RAINBOW_CYCLE\",\n                \"COLOR_FLASH\",\n                \"THEATRE_CHASE_RAINBOW\",\n                \"STRIP_TESTER\",\n                \"COLOR_GRADIENT\"\n            ],\n            \"possibleValues\": \"Refer patterns object in above message\"\n        }\n    }\n}\n\n{\n    \"device_id\": 26,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"washroom light\",\n    \"device_room_area\": \"Washroom\",\n    \"device_type\": \"switch\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is a switch, 0 means off, 255 means on\",\n            \"current\": 0,\n            \"allowedValues\": [\n                0,\n                255\n            ]\n        }\n    }\n}\n\n{\n    \"device_id\": 28,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 4\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 27,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 3\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 20,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"primary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 21,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"secondary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": \"cpIEs53S\",\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"cove light\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_rgbwwa\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        },\n        \"pattern\": {\n            \"description\": \"this is to control the pattern of the addressable led strip, here the light can either\\n                        warm white colour or to a rgb colour, both cannot be set at a time\",\n            \"current\": {\n                \"patternName\": \"STATIC\",\n                \"patternProperties\": [\n                    {\n                        \"patternPropertyId\": \"COLOR_TRANSITION_INTERVAL\",\n                        \"patternPropertyValue\": 250\n                    }\n                ],\n                \"colour\": [\n                    {\n                        \"redPercent\": 100,\n                        \"greenPercent\": 0,\n                        \"bluePercent\": 0\n                    }\n                ],\n                \"wwa\": [\n                    {\n                        \"warmWhitePercent\": 0,\n                        \"coolWhitePercent\": 0,\n                        \"amberPercent\": 0\n                    }\n                ]\n            },\n            \"supportedPatterns\": [\n                \"Static\",\n                \"Rainbow\",\n                \"BREATHING\",\n                \"Shuffle\"\n            ]\n        }\n    }\n}\n Scenes information: [{\"scene_id\":\"qTlIgG18uL-150\",\"scene_room\":\"Living Room\",\"scene_name\":\"All off\"},{\"scene_id\":\"qTlIgG18uL-152\",\"scene_room\":\"Living Room\",\"scene_name\":\"Bright\"},{\"scene_id\":\"qTlIgG18uL-153\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax\"},{\"scene_id\":\"qTlIgG18uL-154\",\"scene_room\":\"Living Room\",\"scene_name\":\"Day\"},{\"scene_id\":\"qTlIgG18uL-155\",\"scene_room\":\"Living Room\",\"scene_name\":\"Night\"},{\"scene_id\":\"qTlIgG18uL-151\",\"scene_room\":\"Living Room\",\"scene_name\":\"All off\"},{\"scene_id\":\"qTlIgG18uL-156\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax 2\"},{\"scene_id\":\"qTlIgG18uL-157\",\"scene_room\":\"Living Room\",\"scene_name\":\"Bright\"},{\"scene_id\":\"qTlIgG18uL-158\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax\"},{\"scene_id\":\"qTlIgG18uL-159\",\"scene_room\":\"Living Room\",\"scene_name\":\"Day\"},{\"scene_id\":\"qTlIgG18uL-160\",\"scene_room\":\"Living Room\",\"scene_name\":\"Night\"},{\"scene_id\":\"qTlIgG18uL-161\",\"scene_room\":\"Living Room\",\"scene_name\":\"Party\"},{\"scene_id\":\"3rHem9k2g6-150\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-152\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-153\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"},{\"scene_id\":\"3rHem9k2g6-154\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Day\"},{\"scene_id\":\"3rHem9k2g6-155\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Night\"},{\"scene_id\":\"3rHem9k2g6-151\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-156\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-157\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"},{\"scene_id\":\"3rHem9k2g6-158\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-159\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-160\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"}]"
+                },
+                {
+                    "role": "user",
+                    "content": "execute day scene in living room"
+                },
+                {
+                    "role": "assistant",
+                    "tool_calls": [
+                        {
+                            "id": "call_id",
+                            "type": "function",
+                            "function": {
+                                "name": "execute_scene",
+                                "arguments": "{\"scene_id\": \"qTlIgG18uL-154\", \"scene_name\": \"day\", \"room_name\": \"living room\"}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "create_scene_variation",
+                        "description": "Creates a scene by setting multiple device states to match a mood (e.g., 'party vibe'). Use this tool alone for scenes. pass valid field names",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "devices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string",
+                                                "description": "pass the id of the device here (device_id)"
+                                            },
+                                            "name": {
+                                                "type": "string",
+                                                "description": "pass the name of the device here (device_name)"
+                                            },
+                                            "onOffState": {
+                                                "type": "boolean",
+                                                "description": "send the on/off state of the device..., true for on, false for off"
+                                            },
+                                            "brightness": {
+                                                "type": "number",
+                                                "description": "pass the brightness of the device..."
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "name",
+                                            "onOffState"
+                                        ],
+                                        "additionalProperties": false,
+                                        "description": "this state will be showed to user..."
+                                    },
+                                    "description": "pass the list of devices with suitable states..."
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "pass room name here"
+                                },
+                                "room_area": {
+                                    "type": "string",
+                                    "description": "pass the name of area of the room if available, include all the lights in the room if no area is specified"
+                                }
+                            },
+                            "required": [
+                                "devices",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "save_scene",
+                        "description": "Saves a scene with the current device states",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "scene_name": {
+                                    "type": "string",
+                                    "description": "Name of the scene to save"
+                                },
+                                "devices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "onOffState": {
+                                                "type": "boolean"
+                                            },
+                                            "brightness": {
+                                                "type": "number"
+                                            }
+                                        },
+                                        "required": [
+                                            "name",
+                                            "onOffState"
+                                        ],
+                                        "additionalProperties": false
+                                    }
+                                },
+                                "room_name": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "scene_name",
+                                "devices",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "control_device",
+                        "description": "use this tool to control a single device, or to change the state of a single device",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "device_id": {
+                                    "type": "string",
+                                    "description": "pass the id of the device here"
+                                },
+                                "device_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the device here"
+                                },
+                                "onOffState": {
+                                    "type": "boolean",
+                                    "description": "send the on/off state of the device..., true for on, false for off"
+                                },
+                                "brightness": {
+                                    "type": "number",
+                                    "description": "pass the brightness of the device..."
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "name of the room"
+                                }
+                            },
+                            "required": [
+                                "device_id",
+                                "device_name",
+                                "onOffState",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "execute_scene",
+                        "description": "use this tool to execute or apply a preconfigured scene in a room",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "scene_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the scene here"
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the room here"
+                                },
+                                "scene_id": {
+                                    "type": "string",
+                                    "description": "pass id of the scene here"
+                                }
+                            },
+                            "required": [
+                                "scene_name",
+                                "room_name",
+                                "scene_id"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Use this information: {\n    \"device_id\": 21,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"Colour Tunable\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"color_tunable\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        },\n        \"colorTemperature\": {\n            \"type\": \"this is a color temperature capability of light, supports color temperature from 2000 to 8000, in kelvin\",\n            \"current\": 2000,\n            \"min\": 2000,\n            \"max\": 8000\n        }\n    }\n}\n\n{\n    \"device_id\": \"7BZ9Cz0W\",\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"Profile\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_dimmer\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        }\n    }\n}\n\n{\n    \"device_id\": 27,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining dimmer\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 20,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"main dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 31,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 3\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 30,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 8\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 32,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 4\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 25,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining secondary dinner\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"switch\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is a switch, 0 means off, 255 means on\",\n            \"current\": 0,\n            \"allowedValues\": [\n                0,\n                255\n            ]\n        }\n    }\n}\n\n{\n    \"device_id\": 23,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dining primary dimmer\",\n    \"device_room_area\": \"Dining\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 33,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"dimmer 5\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 31,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 7\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 22,\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"secondary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 29,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 5\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 30,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 6\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": \"CxKv1NnP\",\n    \"device_room_id\": \"qTlIgG18uL\",\n    \"device_room_name\": \"Living Room\",\n    \"device_name\": \"cove light\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_rgbaddressable\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        },\n        \"pattern\": {\n            \"description\": \"this is to control the pattern of the addressable led strip\",\n            \"currentState\": {\n                \"patternName\": \"STATIC_ADDRESSABLE\",\n                \"patternProperties\": [\n                    {\n                        \"patternPropertyId\": \"PATTERN_SPEED\",\n                        \"patternPropertyValue\": 120\n                    },\n                    {\n                        \"patternPropertyId\": \"FLOW_TYPE\",\n                        \"patternPropertyValue\": 0\n                    },\n                    {\n                        \"patternPropertyId\": \"PATTERN_DIRECTION\",\n                        \"patternPropertyValue\": 0\n                    }\n                ],\n                \"colours\": [\n                    {\n                        \"redPercent\": 100,\n                        \"greenPercent\": 0,\n                        \"bluePercent\": 0\n                    }\n                ]\n            },\n            \"supportedPatterns\": [\n                \"Static Addressable\",\n                \"Rainbow Addressable\",\n                \"BREATHING ADDRESSABLE\",\n                \"STREAM\",\n                \"METEOR_RAIN\",\n                \"PULSE\",\n                \"VIBE\",\n                \"STROBE\",\n                \"TWINKLE\",\n                \"SPARKLE\",\n                \"FIRE\",\n                \"THEATRE_CHASE\",\n                \"COLOR_WIPE\",\n                \"PINBALL\",\n                \"COMET\",\n                \"RAINBOW_CYCLE\",\n                \"COLOR_FLASH\",\n                \"THEATRE_CHASE_RAINBOW\",\n                \"STRIP_TESTER\",\n                \"COLOR_GRADIENT\"\n            ],\n            \"possibleValues\": \"Refer patterns object in above message\"\n        }\n    }\n}\n\n{\n    \"device_id\": 26,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"washroom light\",\n    \"device_room_area\": \"Washroom\",\n    \"device_type\": \"switch\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is a switch, 0 means off, 255 means on\",\n            \"current\": 0,\n            \"allowedValues\": [\n                0,\n                255\n            ]\n        }\n    }\n}\n\n{\n    \"device_id\": 28,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 4\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 27,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"dimmer 3\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 20,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"primary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"dali_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": 21,\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"secondary dimmer\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"zigbee_dimmer\",\n    \"capabilities\": {\n        \"brightness\": {\n            \"description\": \"this is a dimmable capability, supports brightness level from 0 to 255\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 255\n        }\n    }\n}\n\n{\n    \"device_id\": \"cpIEs53S\",\n    \"device_room_id\": \"3rHem9k2g6\",\n    \"device_room_name\": \"Master Bedroom\",\n    \"device_name\": \"cove light\",\n    \"device_room_area\": \"Main\",\n    \"device_type\": \"gm_rgbwwa\",\n    \"capabilities\": {\n        \"onOff\": {\n            \"description\": \"this is to control the on/off state of the device\",\n            \"current\": false,\n            \"allowedValues\": [\n                false,\n                true\n            ]\n        },\n        \"brightness\": {\n            \"description\": \"this is to control the brightness of the device\",\n            \"current\": 0,\n            \"min\": 0,\n            \"max\": 100\n        },\n        \"pattern\": {\n            \"description\": \"this is to control the pattern of the addressable led strip, here the light can either\\n                        warm white colour or to a rgb colour, both cannot be set at a time\",\n            \"current\": {\n                \"patternName\": \"STATIC\",\n                \"patternProperties\": [\n                    {\n                        \"patternPropertyId\": \"COLOR_TRANSITION_INTERVAL\",\n                        \"patternPropertyValue\": 250\n                    }\n                ],\n                \"colour\": [\n                    {\n                        \"redPercent\": 100,\n                        \"greenPercent\": 0,\n                        \"bluePercent\": 0\n                    }\n                ],\n                \"wwa\": [\n                    {\n                        \"warmWhitePercent\": 0,\n                        \"coolWhitePercent\": 0,\n                        \"amberPercent\": 0\n                    }\n                ]\n            },\n            \"supportedPatterns\": [\n                \"Static\",\n                \"Rainbow\",\n                \"BREATHING\",\n                \"Shuffle\"\n            ]\n        }\n    }\n}\n Scenes information: [{\"scene_id\":\"qTlIgG18uL-150\",\"scene_room\":\"Living Room\",\"scene_name\":\"All off\"},{\"scene_id\":\"qTlIgG18uL-152\",\"scene_room\":\"Living Room\",\"scene_name\":\"Bright\"},{\"scene_id\":\"qTlIgG18uL-153\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax\"},{\"scene_id\":\"qTlIgG18uL-154\",\"scene_room\":\"Living Room\",\"scene_name\":\"Day\"},{\"scene_id\":\"qTlIgG18uL-155\",\"scene_room\":\"Living Room\",\"scene_name\":\"Night\"},{\"scene_id\":\"qTlIgG18uL-151\",\"scene_room\":\"Living Room\",\"scene_name\":\"All off\"},{\"scene_id\":\"qTlIgG18uL-156\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax 2\"},{\"scene_id\":\"qTlIgG18uL-157\",\"scene_room\":\"Living Room\",\"scene_name\":\"Bright\"},{\"scene_id\":\"qTlIgG18uL-158\",\"scene_room\":\"Living Room\",\"scene_name\":\"Relax\"},{\"scene_id\":\"qTlIgG18uL-159\",\"scene_room\":\"Living Room\",\"scene_name\":\"Day\"},{\"scene_id\":\"qTlIgG18uL-160\",\"scene_room\":\"Living Room\",\"scene_name\":\"Night\"},{\"scene_id\":\"qTlIgG18uL-161\",\"scene_room\":\"Living Room\",\"scene_name\":\"Party\"},{\"scene_id\":\"3rHem9k2g6-150\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-152\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-153\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"},{\"scene_id\":\"3rHem9k2g6-154\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Day\"},{\"scene_id\":\"3rHem9k2g6-155\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Night\"},{\"scene_id\":\"3rHem9k2g6-151\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-156\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-157\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"},{\"scene_id\":\"3rHem9k2g6-158\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"All off\"},{\"scene_id\":\"3rHem9k2g6-159\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Bright\"},{\"scene_id\":\"3rHem9k2g6-160\",\"scene_room\":\"Master Bedroom\",\"scene_name\":\"Relax\"}]"
+                },
+                {
+                    "role": "user",
+                    "content": "turn on cove light"
+                },
+                {
+                    "role": "assistant",
+                    "content": "can you please tell me which room this device exists"
+                },
+                {
+                    "role": "user",
+                    "content": "living room"
+                },
+                {
+                    "role": "assistant",
+                    "tool_calls": [
+                        {
+                            "id": "call_id",
+                            "type": "function",
+                            "function": {
+                                "name": "control_device",
+                                "arguments": "{\"device_id\": \"CxKv1NnP\", \"device_name\": \"cove light\", \"onOffState\": \"true\"}, \"brightness\": \"100\"}, \"room_name\": \"living room\"}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "create_scene_variation",
+                        "description": "Creates a scene by setting multiple device states to match a mood (e.g., 'party vibe'). Use this tool alone for scenes. pass valid field names",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "devices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "type": "string",
+                                                "description": "pass the id of the device here (device_id)"
+                                            },
+                                            "name": {
+                                                "type": "string",
+                                                "description": "pass the name of the device here (device_name)"
+                                            },
+                                            "onOffState": {
+                                                "type": "boolean",
+                                                "description": "send the on/off state of the device..., true for on, false for off"
+                                            },
+                                            "brightness": {
+                                                "type": "number",
+                                                "description": "pass the brightness of the device..."
+                                            }
+                                        },
+                                        "required": [
+                                            "id",
+                                            "name",
+                                            "onOffState"
+                                        ],
+                                        "additionalProperties": false,
+                                        "description": "this state will be showed to user..."
+                                    },
+                                    "description": "pass the list of devices with suitable states..."
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "pass room name here"
+                                },
+                                "room_area": {
+                                    "type": "string",
+                                    "description": "pass the name of area of the room if available, include all the lights in the room if no area is specified"
+                                }
+                            },
+                            "required": [
+                                "devices",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "save_scene",
+                        "description": "Saves a scene with the current device states",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "scene_name": {
+                                    "type": "string",
+                                    "description": "Name of the scene to save"
+                                },
+                                "devices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "onOffState": {
+                                                "type": "boolean"
+                                            },
+                                            "brightness": {
+                                                "type": "number"
+                                            }
+                                        },
+                                        "required": [
+                                            "name",
+                                            "onOffState"
+                                        ],
+                                        "additionalProperties": false
+                                    }
+                                },
+                                "room_name": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "scene_name",
+                                "devices",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "control_device",
+                        "description": "use this tool to control a single device, or to change the state of a single device",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "device_id": {
+                                    "type": "string",
+                                    "description": "pass the id of the device here"
+                                },
+                                "device_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the device here"
+                                },
+                                "onOffState": {
+                                    "type": "boolean",
+                                    "description": "send the on/off state of the device..., true for on, false for off"
+                                },
+                                "brightness": {
+                                    "type": "number",
+                                    "description": "pass the brightness of the device..."
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "name of the room"
+                                }
+                            },
+                            "required": [
+                                "device_id",
+                                "device_name",
+                                "onOffState",
+                                "room_name"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "execute_scene",
+                        "description": "use this tool to execute or apply a preconfigured scene in a room",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "scene_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the scene here"
+                                },
+                                "room_name": {
+                                    "type": "string",
+                                    "description": "pass the name of the room here"
+                                },
+                                "scene_id": {
+                                    "type": "string",
+                                    "description": "pass id of the scene here"
+                                }
+                            },
+                            "required": [
+                                "scene_name",
+                                "room_name",
+                                "scene_id"
+                            ],
+                            "additionalProperties": false,
+                            "$schema": "http://json-schema.org/draft-07/schema#"
+                        }
+                    }
+                }
+            ]
+        }

@@ -12,7 +12,7 @@ async def transcribeHandler(msg: Msg):
 
 async def startProvider():
 
-    nc = NatsClient("nats", 4222, "nats-test")
+    nc = NatsClient("localhost", 4222, "nats-test")
     await nc.start()
 
     await nc.subscribe(subject="keus-transcribe", handler=transcribeHandler )
