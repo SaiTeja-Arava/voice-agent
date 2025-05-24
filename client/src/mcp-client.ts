@@ -87,12 +87,12 @@ export class McpClient {
             args: [...this.transporters]
         });
         await this.client.connect(transport);
-        this.mainCollection = await this.chromaClient.getOrCreateCollection({
-            name: this.mainCollectionName
-        })
-        this.patternsCollection = await this.chromaClient.getOrCreateCollection({
-            name: this.patternsCollectionName
-        })
+        // this.mainCollection = await this.chromaClient.getOrCreateCollection({
+        //     name: this.mainCollectionName
+        // })
+        // this.patternsCollection = await this.chromaClient.getOrCreateCollection({
+        //     name: this.patternsCollectionName
+        // })
         const availableTools = await this.client.listTools();
         this.tools = availableTools.tools.map(tool => (<Tool>{
             type: "function",
